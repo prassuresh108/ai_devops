@@ -1,5 +1,3 @@
-The issue is with the indentation of the `name: Lint with flake8` step. It should be at the same level as the other steps. Here is the corrected YAML:
-
 name: Python application
 
 on:
@@ -39,5 +37,3 @@ jobs:
 
     - name: Mock Deployment
       run: echo "Deploying application..."
-
-This should resolve the issue and make the YAML conform to the schema.
