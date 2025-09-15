@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -36,4 +35,5 @@ jobs:
         pytest
 
     - name: Mock Deployment
-      run: echo "Deploying application..."
+      run: |
+        echo "Deploying application..."
